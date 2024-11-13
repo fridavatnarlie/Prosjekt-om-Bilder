@@ -1,0 +1,23 @@
+body {
+    background-color: bisque;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+section {
+    min-height: 300px;
+    border: black solid 2px;
+    margin: 50px;
+}
+
+section > h2 {
+    background-color: black;
+    color: azure;
+    padding: 20px;
+}
