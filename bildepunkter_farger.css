@@ -1,0 +1,62 @@
+body{
+    background-image: url("bilder/farge_bakgrunn.jpg");
+    background-size: contain;
+}
+
+h1{
+    color: #E8E5DA;
+    padding: 20px;
+    text-align: center;
+}
+
+nav{
+    padding: 10px;
+}
+
+nav > a{
+    color: #E8E5DA;
+    padding: 50px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 7px;
+    padding: 20px;
+}
+
+main > div{
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    height: 450px;
+    border: 2px solid white;
+	border-radius: 10px;
+	width: 100%;
+	margin: 10px;
+	vertical-align: top;
+	display: inline-block;
+}
+
+.forside{
+        height: 100vh;
+        background-size: cover; 
+        position: relative;
+        background-attachment: fixed;
+}
+
+.text{
+    background-color: rgba(0, 0, 0, 0.8);
+	color: white;
+	border: 3px solid;
+	border-radius: 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform:translate(-50%, -50%);
+	z-index: 2;
+	width: 60%;
+	padding: 100px;
+	text-align: center;
+}
