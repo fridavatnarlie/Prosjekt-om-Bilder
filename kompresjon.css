@@ -17,6 +17,13 @@ header {
     justify-content: center;
 }
 
+header > div {
+    border: 3px solid black;
+    padding: 150px;
+    border-radius: 15px;
+    background-color: rgba(0,0,0,0.5);
+}
+
 section {
     min-height: 300px;
     border: black solid 2px;
