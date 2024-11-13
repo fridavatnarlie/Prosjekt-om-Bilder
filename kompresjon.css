@@ -10,14 +10,23 @@ h2 {
     text-align: center;
 }
 
+header {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 section {
     min-height: 300px;
     border: black solid 2px;
+    border-radius: 15px;
     margin: 50px;
+    overflow: hidden;
 }
 
 section > h2 {
     background-color: black;
     color: azure;
-    padding: 20px;
+    padding: 10px;
 }
