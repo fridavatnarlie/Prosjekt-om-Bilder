@@ -1,21 +1,14 @@
 body{
     background-image: url("bilder/farge_bakgrunn.jpg");
-    background-size: contain;
+    background-size: cover;
+    width: 100%;
+    background-attachment: fixed;
 }
 
 h1{
     color: #E8E5DA;
     padding: 20px;
     text-align: center;
-}
-
-nav{
-    padding: 10px;
-}
-
-nav > a{
-    color: #E8E5DA;
-    padding: 50px;
 }
 
 main {
@@ -43,7 +36,6 @@ main > div{
         height: 100vh;
         background-size: cover; 
         position: relative;
-        background-attachment: fixed;
 }
 
 .text{
