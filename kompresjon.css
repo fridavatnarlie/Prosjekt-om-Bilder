@@ -1,9 +1,10 @@
 body {
-    background-color: bisque;
+    background-color: aliceblue;
 }
 
 h1 {
     text-align: center;
+    color: white;
 }
 
 h2 {
@@ -18,22 +19,28 @@ header {
 }
 
 header > div {
-    border: 3px solid black;
-    padding: 150px;
-    border-radius: 15px;
-    background-color: rgba(0,0,0,0.5);
+    border: 3px solid white;
+    padding: 100px;
+    border-radius: 20px;
+    background-color: rgba(0,0,0,0.75);
 }
 
 section {
     min-height: 300px;
-    border: black solid 2px;
+    border: white solid 2px;
     border-radius: 15px;
     margin: 50px;
     overflow: hidden;
+    background-color: rgba(0,0, 0, 0.8);
+    color: white;
+}
+
+section > div {
+    padding: 10px;
 }
 
 section > h2 {
-    background-color: black;
+    background-color: rgba(0,0, 0, 0.8);
     color: azure;
     padding: 10px;
 }
