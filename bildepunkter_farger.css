@@ -73,3 +73,18 @@ p {
     line-height: 30px;
     font-size: 17px;
 }
+
+table{
+    border-radius: 100px;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+th, td{
+    padding: 15px;
+    border: 2px solid white;
+}
+
+.fyll{
+    background-color: rgba(230, 187, 15, 0.937);
+}
