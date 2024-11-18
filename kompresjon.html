@@ -33,9 +33,11 @@
         <section>
             <h2>Tapsfri kompresjon</h2>
             <div>
-                <p>Tapsfri kompresjon er måte man kan gjøre fil mindre uten at man mister informasjonen. 
-                   Det er en måte å spare plass på. For eksempel i steden for å skrive (666), (666), (666). 
-                   Kan man skrive: 3(3*6). Det står akkurat samme informasjonen, vi har bare gjort den mindre, komprimert.
+                <p>Tapsfri kompresjon er måte man kan gjøre en fil mindre uten at man mister informasjonen. 
+                   Det er en måte å spare plass på. Dersom en farge kodet med tre tall gjentar seg 100 ganger bortover
+                   ville denne kodingen gitt 300 tall. Da kan man isteden skrive 100(tall,tall,tall). 
+                   Da har man kompremert til 4 tall bare. Det står akkurat samme informasjonen, vi har bare gjort den mindre, komprimert.
+                   For at datamaskinen skal skjønne hva denne kodingen betyr, må den ha et program/system som kalles kodek.
                    Denne metoden kalles RLE - Run Length Encoding. 
                    Med denne måten kompresjon slipper man å tape data.
                 </p>
