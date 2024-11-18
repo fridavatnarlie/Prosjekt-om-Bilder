@@ -58,6 +58,10 @@ section > div {
     padding: 20px;
 }
 
+section > img {
+    width: 300px;
+}
+
 @media  (width<600px) {
     
     header > div {
