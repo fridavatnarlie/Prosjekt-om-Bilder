@@ -1,7 +1,7 @@
 body {
     display: grid;
     grid-template-columns: auto 234px;
-    background-image: url("bilder/koding.jpg");
+    background-image: url("bilder/fett.jpg");
     background-size: contain;
     padding: 10px;
     row-gap: 18px;   
@@ -26,6 +26,7 @@ body>div {
     border: 3px solid white;
     padding: 10px;
     grid-column: 1/2;
+    font-size: 16px;
 }
 
 
@@ -66,8 +67,23 @@ aside {
         flex-wrap: nowrap
     }
 
+    header {
+        height: auto;
+        padding: 5px;
+        text-align: center;
+    }
+
+    .text {
+        width: 90%; 
+        margin: 0 auto; 
+    }
+
     body>div {
         width: 90%;
+    }
+
+    aside   {
+        width: 90%; 
     }
 }
 
