@@ -4,8 +4,8 @@ body {
     background-image: url("bilder/lagring.jpg");
     background-size: contain;
     padding: 10px;
-    row-gap: 4px;   
-    column-gap: 2px;
+    row-gap: 18px;   
+    column-gap: 10px;
 }
 
 header {
@@ -19,10 +19,11 @@ header {
 
 
 body>div {
-    border: 2px dotted black;
     min-height: 200px;
-    background-color: white;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
     border-radius: 11px;
+    border: 3px solid white;
     padding: 10px;
     grid-column: 1/2;
 }
@@ -54,10 +55,13 @@ aside {
     grid-column: 2/3;
     grid-row: 2/5;
     padding: 20px;
-    border: 2px solid black;
     height: 100%;
-    background-color: white;
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 3px solid white;
+    color: white;
     border-radius: 11px;
     padding: 23px;
 }
+
+@media (width<600px)
 
