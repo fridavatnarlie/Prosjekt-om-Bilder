@@ -16,6 +16,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 20px;
 }
 
 header > div {
@@ -25,12 +26,17 @@ header > div {
     background-color: rgba(0,0,0,0.75);
 }
 
+main {
+    padding: 20px;
+}
+
 section {
     min-height: 300px;
+    max-width: 1100px;
     background-color: rgba(0, 0, 0, 0.75);
     border: white solid 2px;
     border-radius: 15px;
-    margin: 50px;
+    margin: 50px auto;
     overflow: hidden;
     color: white;
 }
@@ -43,6 +49,13 @@ section > h2 {
 
 section > div {
     padding: 20px;
+}
+
+@media  (width<600px) {
+    
+    header > div {
+        padding: 100px 20px;
+    }
 }
 
 
