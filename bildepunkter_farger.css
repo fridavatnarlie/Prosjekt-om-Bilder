@@ -51,6 +51,10 @@ main > div{
 }
 
 #farger{
+    height: 100vh;
+}
+
+#farger > div{
     background-color: rgba(0, 0, 0, 0.8);
     color: white;
     padding: 20px;
@@ -62,9 +66,9 @@ main > div{
 	vertical-align: top;
 	display: block;
     margin: 0 auto;
-    top: 50%;
+   /*  top: 50%;
     transform: translateY(-50%);
-    margin-top: 120px;
+    margin-top: 120px; */
 }
 
 p {
