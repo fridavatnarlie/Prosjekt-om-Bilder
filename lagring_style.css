@@ -63,5 +63,12 @@ aside {
     padding: 23px;
 }
 
-@media (width<600px)
+@media (max-width:600px) {
+    .flex {
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: nowrap
+    }
+}
+
 
