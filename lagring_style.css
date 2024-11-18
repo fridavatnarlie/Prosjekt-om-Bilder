@@ -1,7 +1,7 @@
 body {
     display: grid;
-    grid-template-columns: auto 234px;
-    background-image: url("bilder/fett.jpg");
+    grid-template-columns: auto 290px;
+    background-image: url("bilder/nytt.jpg");
     background-size: contain;
     padding: 10px;
     row-gap: 18px;   
@@ -24,11 +24,15 @@ body>div {
     color: white;
     border-radius: 11px;
     border: 3px solid white;
-    padding: 10px;
+    padding: 20px;
     grid-column: 1/2;
     font-size: 16px;
+
 }
 
+p {
+    font-size: 19px;
+}
 
 .forside {
     height: 100vh;
