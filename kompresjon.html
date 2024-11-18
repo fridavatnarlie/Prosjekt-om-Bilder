@@ -38,6 +38,7 @@
                    ville denne kodingen gitt 300 tall. Da kan man isteden skrive 100(tall,tall,tall). 
                    Da har man kompremert til 4 tall bare. Det står akkurat samme informasjonen, vi har bare gjort den mindre, komprimert.
                    For at datamaskinen skal skjønne hva denne kodingen betyr, må den ha et program/system som kalles kodek.
+                   Dette systemet komprimere (koding) ved lagring, og gjenskaper orginalen når bildet åpnes igjen - dekoding. 
                    Denne metoden kalles RLE - Run Length Encoding. 
                    Med denne måten kompresjon slipper man å tape data.
                 </p>
@@ -52,7 +53,11 @@
         <section>
             <h2>Destruktiv kompresjon</h2>
             <div>
-                <p>Destruktiv kompresjon er </p>
+                <p>Destruktiv kompresjon er kompresjon der deler av informasjon fjernes. Et bilde kan bestå av 1000 * 1000 = 1 000 000 punkter.
+                    Ved å slå sammmen like punkter (nesten like punkter), kan man gjøre bildet til 100 * 100 = 10 000 punkter. Du har nå gjort bildet
+                    100 ganger mindre, men du har mistet informasjon i bildet. Av og til vil orginalbildet inneholde mer info enn 
+                    menneskeøyet kan se. Dermed vil man ikke se at det er kompremert før man zoomer inn. 
+                </p>
             </div>
         </section>
 
