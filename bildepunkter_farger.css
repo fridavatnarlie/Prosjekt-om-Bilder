@@ -45,7 +45,6 @@ main > div{
 	top: 50%;
 	left: 50%;
 	transform:translate(-50%, -50%);
-	z-index: 2;
 	width: 60%;
 	padding: 100px;
 	text-align: center;
@@ -63,7 +62,6 @@ main > div{
 	vertical-align: top;
 	display: block;
     margin: 0 auto;
-    position: relative;
     top: 50%;
     transform: translateY(-50%);
     margin-top: 120px;
@@ -87,4 +85,10 @@ th, td{
 
 .fyll{
     background-color: rgba(230, 187, 15, 0.937);
+}
+
+@media(max-width:600px) {
+    body{
+        display: grid;
+    }
 }
