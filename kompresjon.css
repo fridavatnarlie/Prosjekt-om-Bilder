@@ -46,6 +46,8 @@ section {
     margin: 50px auto;
     overflow: hidden;
     color: white;
+    display: grid;
+    justify-items: center;
 }
 
 section > h2 {
@@ -58,8 +60,8 @@ section > div {
     padding: 20px;
 }
 
-section > img {
-    width: 300px;
+section img {
+    width: 500px;
 }
 
 @media  (width<600px) {

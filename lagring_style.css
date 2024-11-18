@@ -1,10 +1,10 @@
 body {
     display: grid;
-    grid-template-columns: auto 290px;
+    grid-template-columns: auto 300px;
     background-image: url("bilder/nytt.jpg");
     background-size: contain;
     padding: 10px;
-    row-gap: 18px;   
+    row-gap: 18px;
     column-gap: 10px;
 }
 
@@ -17,6 +17,21 @@ header {
     justify-content: center;
 }
 
+.tilbake {
+    position: absolute;
+    top: 10px;
+    left: 21px;
+    width: 180px;
+}
+
+.tilbake_div {
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 85px;
+    width: 94px;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 16px;
+}
 
 body>div {
     min-height: 200px;
@@ -27,8 +42,24 @@ body>div {
     padding: 20px;
     grid-column: 1/2;
     font-size: 16px;
-
 }
+
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+}
+
+.container > img{
+    width: 30%;
+    height: auto;
+    margin-top: 20px;
+    justify-content: center;
+    border-radius: 13px;
+    border: 1px solid white;   
+}
+
 
 p {
     font-size: 19px;
@@ -63,7 +94,8 @@ aside {
     padding: 23px;
 }
 
-@media (max-width:600px) {
+
+@media (max-width:700px) {
     body {
         display: flex;
         flex-direction: column;
@@ -78,17 +110,15 @@ aside {
     }
 
     .text {
-        width: 90%; 
-        margin: 0 auto; 
+        width: 90%;
+        margin: 0 auto;
     }
 
     body>div {
         width: 90%;
     }
 
-    aside   {
-        width: 90%; 
+    aside {
+        width: 90%;
     }
 }
-
-
