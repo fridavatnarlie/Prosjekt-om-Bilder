@@ -84,10 +84,14 @@ section img {
     width: 500px;
 }
 
-@media  (width<600px) {
+@media  (width<700px) {
     
     header > div {
         padding: 100px 20px;
+    }
+
+    section img {
+        width: 75%;
     }
 }
 
