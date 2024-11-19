@@ -86,7 +86,7 @@ aside {
     grid-column: 2/3;
     grid-row: 2/5;
     padding: 20px;
-    height: 100%;
+    height: 495px;
     background-color: rgba(0, 0, 0, 0.8);
     border: 3px solid white;
     color: white;
