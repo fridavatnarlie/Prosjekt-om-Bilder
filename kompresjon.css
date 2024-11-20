@@ -85,20 +85,25 @@ section img {
 }
 
 table {
-    border: white solid 2px;
+    border: plum solid 2px;
     border-collapse: collapse;
     width: 300px;
     height: 200px;
     margin: auto;
     text-align: center;
+    color: black;
+    background-color: white;
+    padding: 20px;
 }
 
 th {
-    background-color: blue;
+    background-color: plum;
+    
 }
 
 td {
     width: 30px;
+    padding: 10px;
 }
 
 @media  (width<700px) {
@@ -109,6 +114,10 @@ td {
 
     section img {
         width: 75%;
+    }
+
+    div > table {
+        width: fit-content;
     }
 
 }
