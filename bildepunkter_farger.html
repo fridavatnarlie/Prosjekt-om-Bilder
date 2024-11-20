@@ -20,7 +20,7 @@
         </div>
     </header>
 
-    <main class="forside">
+    <main class="midtside">
             <div>
                 <h2>Bildepunkter og piksler</h2>
                 <br>
@@ -30,7 +30,7 @@
                 <br>
                 <img src="bilder/smilefjes.jpg">
                 <p>Smilefjeset har to nivåer: svart og hvitt. I en datamaskin blir smilefjeset så digitalisert ved at et kamera eller en skanner leser av og deler det inn
-                    i bildepunkter, se figur 2. I figur 4 settes det på verdier for de ulike fargene, 0 for hvit og 1 for svart. Dette er 
+                    i bildepunkter. I figur 4 settes det på verdier for de ulike fargene, 0 for hvit og 1 for svart. Dette er 
                     relativt enkle tall i forhold til hva det er på bildene vi vanligvis bruker på nettsidene våres. Hvert bildepunkt får altså et eget tall/en verdi.
                     Når vi tar bort smilefjeset, se figur 5, står vi igjen med kun bildepunktene og ut fra denne informasjonen kan datamaskinen framstille en figur. 
                     Det settes også opp en tallrekke: 0, 0, 1, 1, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0 osv.
@@ -72,9 +72,9 @@
 
                 <br>
 
-                <p>Bildet ovenfor viser overgangen fra rødt til svart. Om vi velger å kun bruke lav oppløsning, tar vi oss kun
+                <p>Bildet ovenfor viser overgangen fra svart til rødt. Om vi velger å bruke lav oppløsning (venstre), tar vi oss kun
                     råd til å bruke f.eks. 16 forskjellige <b>nivåer</b> og får derfor en grov oppløsning. Øynene våre er såpass gode at vi trenger
-                    flere nivåer for å kunne se jevne overganger. En vanlig oppdeling er derfor 256 <b>nivåer</b>.
+                    flere nivåer for å kunne se jevne overganger. En vanlig oppdeling er derfor 256 <b>nivåer</b> (høyre).
                 </p>
             </div>    
     </main>
@@ -82,10 +82,11 @@
     <section id="farger">
         <div>
             <h2> Eksempel </h2>
+            <br>
             <p> Under ser du at det svarte smilefjeset nå har fått farger. Vi setter derfor på nye verdier til fargene i 
-                de ulike bildepunktene. Hvert bildepunkt trenger nå tre tall - ett for rødt, ett for grønt og ett for blått. 
-                På det fargede smilefjeset kan verdiene gå opp til 256 ulike nivåer for hver farge. Hver farge får da et tall 
-                fra 0 til 255.
+                de ulike bildepunktene. Hvert bildepunkt trenger nå tre tall - ett for rødt, ett for grønt og ett for blått. Dette kalles
+                RGB-verdier! På det fargede smilefjeset kan verdiene gå opp til 256 ulike nivåer for hver farge. Hver farge får da et tall 
+                fra 0 til 255. Vi ser at hvis vi f.eks. ønsker en hvit farge er RGB-verdiene; 255, 255, 255. 
             </p>
             <br>
             <img src="bilder/fargedsmilefjes.jpg">

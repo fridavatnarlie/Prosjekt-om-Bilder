@@ -12,8 +12,6 @@ h1{
 }
 
 main {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
     gap: 7px;
     padding: 20px;
 }
@@ -23,7 +21,6 @@ main > div{
     color: white;
     padding: 20px;
     border-radius: 10px;
-    min-height: 450px;
     border: 2px solid white;
     width: 100%;
 	vertical-align: top;
@@ -31,9 +28,19 @@ main > div{
 }
 
 .forside{
-    height: 100vh;
+    min-height: 100vh;
     background-size: cover; 
-    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.midtside{
+    min-height: 100vh;
+    background-size: cover; 
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
 }
 
 .text{
@@ -41,28 +48,21 @@ main > div{
 	color: white;
 	border: 3px solid;
 	border-radius: 20px;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform:translate(-50%, -50%);
 	width: 60%;
-	padding: 100px;
 	text-align: center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-
-/* #farger{
-    height: 100vh;
-} */
 
 #farger > div{
     background-color: rgba(0, 0, 0, 0.8);
     color: white;
     padding: 20px;
     border-radius: 10px;
-    min-height: 350px;
     border: 2px solid white;
 	width: 80%;
-	vertical-align: top;
 	display: block;
     margin: 0 auto;
     top: 50%;
@@ -87,7 +87,7 @@ th, td{
 }
 
 .fyll{
-    background-color: rgba(230, 187, 15, 0.937);
+    background-color: rgb(169, 36, 36);
 }
 
 .tilbake {
@@ -104,19 +104,4 @@ th, td{
     padding: 10px;
     border: 2px solid white;
     border-radius: 16px;
-}
-
-section > img{
-    
-}
-
-@media (max-width:600px) {
-    body {
-        display: grid;
-        align-items: center;
-    }
-
-    body > div {
-        width: 90%;
-    }
 }
