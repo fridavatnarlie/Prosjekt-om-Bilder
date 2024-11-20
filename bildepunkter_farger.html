@@ -12,6 +12,12 @@
 
     <header class="forside">
         <h1 class="text"> Bildepunkter og farger </h1>
+
+        <div>
+            <a href="index.html">
+                <img class="tilbake tilbake_div" src="bilder/hjemknapp.jpg">
+            </a>
+        </div>
     </header>
 
     <main class="forside">
@@ -21,6 +27,14 @@
                 <p>Bilder består av bildepunkter, også kalt <b>piksler</b>. For at et bilde skal være tydelig og forståelig, deler vi bildet inn i mange piksler. 
                     Jo flere punkter/piksler du deler et bilde inn i, desto høyere blir oppløsningen og dermed også kvaliteten.
                     Nedenfor ser du en illustrasjon av et smilefjes som trinnvis brytes ned: </p>
+                <br>
+                <img src="bilder/smilefjes.jpg">
+                <p>Smilefjeset har to nivåer: svart og hvitt. I en datamaskin blir smilefjeset så digitalisert ved at et kamera eller en skanner leser av og deler det inn
+                    i bildepunkter, se figur 2. I figur 4 settes det på verdier for de ulike fargene, 0 for hvit og 1 for svart. Dette er 
+                    relativt enkle tall i forhold til hva det er på bildene vi vanligvis bruker på nettsidene våres. Hvert bildepunkt får altså et eget tall/en verdi.
+                    Når vi tar bort smilefjeset, se figur 5, står vi igjen med kun bildepunktene og ut fra denne informasjonen kan datamaskinen framstille en figur. 
+                    Det settes også opp en tallrekke: 0, 0, 1, 1, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0 osv.
+                </p>
             </div>
 
             <div>
@@ -51,13 +65,30 @@
                         <td>Cyan, magenta, yellow, black</td>
                     </tr>
                 </table>
+                
+                <br>
+                
+                <img src="bilder/overgang.jpg">
+
+                <br>
+
+                <p>Bildet ovenfor viser overgangen fra rødt til svart. Om vi velger å kun bruke lav oppløsning, tar vi oss kun
+                    råd til å bruke f.eks. 16 forskjellige <b>nivåer</b> og får derfor en grov oppløsning. Øynene våre er såpass gode at vi trenger
+                    flere nivåer for å kunne se jevne overganger. En vanlig oppdeling er derfor 256 <b>nivåer</b>.
+                </p>
             </div>    
     </main>
 
     <section id="farger">
-        <div >
-            <h2>Eksempel</h2>
-            <p>.</p>
+        <div>
+            <h2> Eksempel </h2>
+            <p> Under ser du at det svarte smilefjeset nå har fått farger. Vi setter derfor på nye verdier til fargene i 
+                de ulike bildepunktene. Hvert bildepunkt trenger nå tre tall - ett for rødt, ett for grønt og ett for blått. 
+                På det fargede smilefjeset kan verdiene gå opp til 256 ulike nivåer for hver farge. Hver farge får da et tall 
+                fra 0 til 255.
+            </p>
+            <br>
+            <img src="bilder/fargedsmilefjes.jpg">
         </div>
     </section>
 

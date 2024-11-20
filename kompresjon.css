@@ -84,6 +84,12 @@ section img {
     width: 500px;
 }
 
+.bilder {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+
 table {
     border: plum solid 2px;
     border-collapse: collapse;
