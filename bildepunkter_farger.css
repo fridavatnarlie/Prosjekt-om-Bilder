@@ -106,6 +106,10 @@ th, td{
     border-radius: 16px;
 }
 
+section > img{
+    
+}
+
 @media (max-width:600px) {
     body {
         display: grid;
