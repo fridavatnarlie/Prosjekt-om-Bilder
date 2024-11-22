@@ -56,16 +56,6 @@ p {
     background-attachment: fixed;
 }
 
-.text {
-    background-color: rgba(0, 0, 0, 0.8);
-    color: white;
-    border: 3px solid;
-    border-radius: 20px;
-    width: 60%;
-    padding: 100px;
-    text-align: center;
-}
-
 aside {
     grid-column: 2/3;
     grid-row: 2/5;
