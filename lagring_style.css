@@ -16,21 +16,7 @@ header {
     justify-content: center;
 }
 
-.tilbake {
-    position: absolute;
-    top: 10px;
-    left: 21px;
-    width: 180px;
-}
 
-.tilbake_div {
-    background-color: rgba(0, 0, 0, 0.8);
-    height: 85px;
-    width: 94px;
-    padding: 10px;
-    border: 2px solid white;
-    border-radius: 16px;
-}
 
 body>div {
     min-height: 200px;
