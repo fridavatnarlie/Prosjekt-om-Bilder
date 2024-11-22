@@ -2,7 +2,6 @@ body {
     display: grid;
     grid-template-columns: auto 300px;
     background-image: url("bilder/nytt.jpg");
-    background-size: contain;
     padding: 10px;
     row-gap: 18px;
     column-gap: 10px;
