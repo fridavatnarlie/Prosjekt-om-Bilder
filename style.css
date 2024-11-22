@@ -10,4 +10,6 @@ img {
 
 body {
     font-family: "Noto Sans", sans-serif;
+    background-size: cover;
+    background-attachment: fixed;
 }
