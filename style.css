@@ -36,3 +36,12 @@ h1{
     border: 2px solid white;
     border-radius: 16px;
 }
+
+.text{
+    background-color: rgba(0, 0, 0, 0.8);
+	color: white;
+	border: 3px solid;
+	border-radius: 20px;
+	width: 60%;
+	text-align: center;
+}
