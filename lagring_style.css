@@ -17,7 +17,6 @@ header {
 }
 
 
-
 body>div {
     min-height: 200px;
     background-color: rgba(0, 0, 0, 0.8);
@@ -36,13 +35,13 @@ body>div {
     justify-content: center;
 }
 
-.container > img{
+.container > img {
     width: 30%;
     height: auto;
     margin-top: 20px;
     justify-content: center;
     border-radius: 13px;
-    border: 1px solid white;   
+    border: 1px solid white;
 }
 
 
@@ -55,16 +54,6 @@ p {
     background-size: cover;
     position: relative;
     background-attachment: fixed;
-}
-
-.text {
-    background-color: rgba(0, 0, 0, 0.8);
-    color: white;
-    border: 3px solid;
-    border-radius: 20px;
-    width: 60%;
-    padding: 100px;
-    text-align: center;
 }
 
 aside {
