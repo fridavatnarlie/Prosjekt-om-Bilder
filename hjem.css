@@ -3,136 +3,29 @@ body{
     background-image: cover;
     color: rgb(59, 46, 46);
 }
-
+ 
 header{
     text-align: center;
     padding: 40px;
 }
-
+ 
 nav{
-    text-align: body{
-    background-image: url("bilder/farge_bakgrunn.jpg");
-    background-size: cover;
-    width: 100%;
-    background-attachment: fixed;
-}
-
-h1{
-    color: #E8E5DA;
-    padding: 20px;
     text-align: center;
-}
-
-main {
-    gap: 7px;
     padding: 20px;
 }
-
-main > div{
-    background-color: rgba(0, 0, 0, 0.8);
-    color: white;
-    padding: 20px;
-    border-radius: 10px;
-    border: 2px solid white;
-    width: 100%;
-	vertical-align: top;
-	display: inline-block;
-}
-
-.forside{
-    min-height: 100vh;
-    background-size: cover; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.midtside{
-    min-height: 100vh;
-    background-size: cover; 
-    display: flex;
-    justify-content: center;
-    align-items: stretch;
-}
-
-.text{
-    background-color: rgba(0, 0, 0, 0.8);
-	color: white;
-	border: 3px solid;
-	border-radius: 20px;
-	width: 60%;
-	text-align: center;
-    height: 300px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#farger > div{
-    background-color: rgba(0, 0, 0, 0.8);
-    color: white;
-    padding: 20px;
-    border-radius: 10px;
-    border: 2px solid white;
-	width: 80%;
-	display: block;
-    margin: 0 auto;
-    top: 50%;
-    transform: translateY(-50%);
-    margin-top: 400px; 
-}
-
-p {
-    line-height: 30px;
-    font-size: 17px;
-}
-
-table{
-    border-radius: 100px;
-    border-collapse: collapse;
-    margin: auto;
-}
-
-th, td{
-    padding: 15px;
-    border: 2px solid white;
-}
-
-.fyll{
-    background-color: rgb(169, 36, 36);
-}
-
-.tilbake {
-    position: absolute;
-    top: 10px;
-    left: 21px;
-    width: 180px;
-}
-
-.tilbake_div {
-    background-color: rgba(0, 0, 0, 0.8);
-    height: 85px;
-    width: 94px;
-    padding: 10px;
-    border: 2px solid white;
-    border-radius: 16px;
-}
-center;
-    padding: 20px;
-}
-
+ 
 .flex {
-    flex-direction: column; 
+    flex-direction: column;
 }
-
+ 
 .container {
     display: flex;
     flex-direction: row;
     gap: 70px;
     justify-content: center;
 }
-
-
+ 
+ 
 nav > a{
     padding: 20px;
     text-align: center;
@@ -140,18 +33,18 @@ nav > a{
     min-width: 214px;
     gap: 20px;
 }
-
+ 
 .text {
     color: black;
     text-decoration-line: none;
 }
-
+ 
 main{
     text-align: center;
     margin: 50px;
     margin-top: 200px;
 }
-
+ 
 h2{
     border: 2px solid rgb(59, 46, 46);
     padding: 20px;
@@ -161,12 +54,10 @@ h2{
     text-align: center;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
 }
-
-
+ 
+ 
 @media (max-width:700px) {
     .container{
         flex-direction: column;
     }
 }
-
-
