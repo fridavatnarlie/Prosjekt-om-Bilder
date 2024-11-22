@@ -1,7 +1,6 @@
 body{
     background-image: url("bilder/farge_bakgrunn.jpg");
     background-size: cover;
-    width: 100%;
     background-attachment: fixed;
 }
 
