@@ -13,3 +13,9 @@ body {
     background-size: cover;
     background-attachment: fixed;
 }
+
+h1{
+    color: #E8E5DA;
+    padding: 20px;
+    text-align: center;
+}
