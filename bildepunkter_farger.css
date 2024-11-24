@@ -1,11 +1,12 @@
+
 body{
     background-image: url("bilder/farge_bakgrunn.jpg");
 }
 
-
 main {
     gap: 7px;
     padding: 20px;
+    display: flex;
 }
 
 main > div{
@@ -55,11 +56,10 @@ main > div{
     border-radius: 10px;
     border: 2px solid white;
 	width: 80%;
-	display: block;
     margin: 0 auto;
-    top: 50%;
-    transform: translateY(-50%);
-    margin-top: 400px; 
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
 }
 
 p {
@@ -80,4 +80,41 @@ th, td{
 
 .fyll{
     background-color: rgb(169, 36, 36);
+}
+
+@media  (width<600px) {
+    main{
+        flex-direction: column;
+        gap: 15px;
+        padding: 10px;
+    }
+
+    main > div{
+        width: 100%;
+    }
+
+    .text{
+        width: 90%;
+        line-height: 1.5;
+    }
+
+    #farger > div{
+        width: 90%;
+        margin-top: 20px;
+        margin: 20px;
+    }
+
+    table{
+        width: 100%;
+        font-size: 14px;
+    }
+
+    th, td {
+        padding: 10px; 
+        font-size: 14px; 
+    }
+
+    h1{
+        font-size: 1.5rem;
+    }
 }
